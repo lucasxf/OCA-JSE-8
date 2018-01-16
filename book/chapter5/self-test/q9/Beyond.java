@@ -1,3 +1,6 @@
+// Chapter 5, Self-test Question 8
+// My answer: A / B / D / F. Compilation fails / ClassCastEx / NullPointer / non completion.
+// Actual answer: D - NullPointer. Partially correct, mostly wrong, though.
 class Infinity {
 
 }
