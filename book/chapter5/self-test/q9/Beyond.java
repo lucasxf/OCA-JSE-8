@@ -13,7 +13,12 @@ public class Beyond extends Infinity {
                     if ( x > 1000000) // Stack overflow
                         x = 10;
                         break;
+                        // unreachable code. 
+                        //The break will break outside the loop 
+                        // as well as the case statement.
+                        //System.out.println("is this even reachable?");
                 }
+                System.out.println("broke");
             }
             case 1: {
                 int y = 7 * i; break; // Null Pointer
@@ -23,6 +28,8 @@ public class Beyond extends Infinity {
             case 2: {
                 Infinity inf = new Beyond();
                 Beyond bey = (Beyond) inf;
+                System.out.println("inf: " + inf);
+                System.out.println("bey: " + bey);
             }
 
         }
