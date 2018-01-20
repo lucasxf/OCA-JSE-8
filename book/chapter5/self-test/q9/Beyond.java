@@ -10,18 +10,19 @@ public class Beyond extends Infinity {
 
     public static void main (String[] args) {
         int sw = (int) (Math.random() * 3);
+        System.out.println(sw);
         switch(sw) {
             case 0: {
-                for ( int x = 10; x > 5; x++ ) {
-                    if ( x > 1000000) // Stack overflow
+                for ( int x = 10; x > 5; x++ )
+                    if ( x > 1000000) // Endless loop, not Stack overflow
                         x = 10;
                         break;
                         // unreachable code. 
                         //The break will break outside the loop 
                         // as well as the case statement.
                         //System.out.println("is this even reachable?");
-                }
-                System.out.println("broke");
+                
+                //System.out.println("broke");
             }
             case 1: {
                 int y = 7 * i; break; // Null Pointer
@@ -34,7 +35,7 @@ public class Beyond extends Infinity {
                 System.out.println("inf: " + inf);
                 System.out.println("bey: " + bey);
             }
-
         }
+        System.out.println("acabou");
     }
 }

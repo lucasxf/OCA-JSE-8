@@ -17,10 +17,11 @@ public class Retread extends Tire {
         new Retread().doStuff();
     }
 
-    void doStuff() {
-    //void doStuff() throws MyException {
-    //void doStuff() throws RuntimeException {
-    //void doStuff() throws ArithmeticException {
+    void doStuff() { // compiles
+    //void doStuff() throws MyException { // won't compile
+    //void doStuff() throws RuntimeException { // compiles
+    //void doStuff() throws ArithmeticException { // compiles
+
         System.out.println(7/0); // Arithmetic Exception
         
     }
