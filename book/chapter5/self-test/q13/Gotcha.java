@@ -1,20 +1,20 @@
 // Chapter 5, Self-test Question 13
 // My answer: B / E /
-// Actual answer: 
+// Actual answer: D - none will complete
 public class Gotcha {
 
     public static void main (String [] args) {
         // I:
         // new Gotcha().go(); // stack overflow
 
-        // II
-        try {
-            new Gotcha().go();
-        } catch (Error e) {
-            System.out.println("ouch");
-        }
+        // II - stack overflow
+        // try {
+         //   new Gotcha().go();
+        //} catch (Error e) {
+         //   System.out.println("ouch");
+        //}
 
-        // III
+        // III - stack overflow
         try {
             new Gotcha().go();
         } catch (Exception e) {
