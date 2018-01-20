@@ -1,0 +1,18 @@
+// Chapter 5 Overall Score
+
+1 - Correct - C
+2 - Correct - B
+3 - Correct - C / D
+4 - Correct - E
+5 - 2/3 Correct. Partial - A / D / F
+6 - Correct - E
+7 - 3/1 Partially (barely) correct - C
+8 - 2/1 Partially correct
+9 - 4/1 Partially (barely) correct - D & F
+10 - Correct - D
+11 - Correct - H
+12 - Correct - C
+13 - Correct - B & E
+14 - Correct - E
+15 - Correct - D
+16 - 1/2 - Partial - C & D

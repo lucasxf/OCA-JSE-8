@@ -1,6 +1,6 @@
 // Chapter 5, Self-test Question 13
 // My answer: B / E /
-// Actual answer: D - none will complete
+// Actual answer: B / E
 public class Gotcha {
 
     public static void main (String [] args) {

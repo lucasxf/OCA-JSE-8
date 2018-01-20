@@ -1,4 +1,4 @@
-// Chapter 5, Self-test Question 15
+// Chapter 5, Self-test Question 16
 // My answer: B / D
 // Actual answer: 
 class MyException extends Exception {
@@ -17,10 +17,10 @@ public class Retread extends Tire {
         new Retread().doStuff();
     }
 
-    void doStuff() { // compiles
-    //void doStuff() throws MyException { // won't compile
-    //void doStuff() throws RuntimeException { // compiles
-    //void doStuff() throws ArithmeticException { // compiles
+    void doStuff() { // compiles (not and overload, but an overriding method)
+    //void doStuff() throws MyException { // won't compile (broader exception)
+    //void doStuff() throws RuntimeException { // compiles (Runtime exceptions may be thrown anyway)
+    //void doStuff() throws ArithmeticException { // compiles (runtime exception child)
 
         System.out.println(7/0); // Arithmetic Exception
         

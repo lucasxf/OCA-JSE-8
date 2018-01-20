@@ -11,9 +11,9 @@ public class Circles {
                 if ( x > 4 && x < 8) continue;
                 System.out.println(" " + x);
                 if ( j == 1) break;
-                continue;
+                continue; // redundant
             }
-            continue;
+            continue; // redundant (jumps to the next iteration)
         }
     }
 }
