@@ -1,0 +1,2 @@
+// Chapter 6 - Strings, Arrays, ArrayLists, Dates & Lambdas
+// Certification Objectives (Chapter goals:)
